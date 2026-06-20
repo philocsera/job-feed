@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>오늘의 기회 · Job Feed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0e1014; --bg2:#161a22; --panel:#181c25; --panel-edge:#262c39;
+    --ink:#eef1f7; --muted:#98a1b2; --faint:#6b7383; --line:#272d3a;
+    --job:#5b8cff; --contest:#3ecf9a; --competition:#f3a25e;
+    --danger:#ff6b6b; --warn:#f3c969;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:radial-gradient(1100px 560px at 50% -12%, #1b2130, var(--bg));
+    color:var(--ink);
+    font-family:"Inter Tight",system-ui,"Pretendard","Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    display:flex; flex-direction:column; min-height:100%;
+  }
+  a{color:inherit}
+  .wrap{width:100%; max-width:680px; margin:0 auto; padding:22px 20px 0; flex:1; display:flex; flex-direction:column}
+
+  /* ---- header ---- */
+  header{display:flex; align-items:flex-end; justify-content:space-between; gap:12px; padding-bottom:16px; border-bottom:1px solid var(--line)}
+  .brand{display:flex; flex-direction:column; gap:3px}
+  .brand h1{margin:0; font-size:21px; font-weight:800; letter-spacing:-0.02em}
+  .brand .sub{font-size:12.5px; color:var(--muted); font-weight:500}
+  .brand .sub b{color:var(--ink); font-weight:600}
+  .daysel{display:flex; align-items:center; gap:7px}
+  .daysel label{font-size:11px; color:var(--faint); text-transform:uppercase; letter-spacing:0.1em}
+  select{
+    background:var(--bg2); color:var(--ink); border:1px solid var(--panel-edge);
+    border-radius:9px; padding:7px 9px; font:inherit; font-size:13px; font-weight:500; cursor:pointer
+  }
+
+  /* ---- filters ---- */
+  .filters{display:flex; gap:8px; flex-wrap:wrap; padding:16px 0 6px}
+  .pill{
+    border:1px solid var(--panel-edge); background:transparent; color:var(--muted);
+    border-radius:999px; padding:6px 13px; font:inherit; font-size:12.5px; font-weight:600;
+    cursor:pointer; transition:.15s; display:flex; align-items:center; gap:7px
+  }
+  .pill .dot{width:7px; height:7px; border-radius:50%}
+  .pill.on{color:var(--ink); border-color:var(--ink)}
+  .pill.on[data-cat="all"]{background:#262c39}
+  .pill .ct{color:var(--faint); font-weight:600; font-variant-numeric:tabular-nums}
+
+  /* ---- card stage ---- */
+  .stage{flex:1; display:flex; align-items:center; justify-content:center; padding:18px 0}
+  .card{
+    width:100%; background:linear-gradient(180deg,var(--panel),#14181f);
+    border:1px solid var(--panel-edge); border-radius:18px; padding:26px 26px 24px;
+    box-shadow:0 18px 50px -28px rgba(0,0,0,.8); position:relative; overflow:hidden;
+    animation:rise .42s cubic-bezier(.2,.7,.2,1) both
+  }
+  .card::before{content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--accent,#5b8cff)}
+  @keyframes rise{from{opacity:0; transform:translateY(10px)} to{opacity:1; transform:none}}
+  @media (prefers-reduced-motion:reduce){.card{animation:none}}
+
+  .card .top{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:16px}
+  .cat{font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.12em; padding:5px 10px; border-radius:7px}
+  .dday{font-size:12px; font-weight:700; padding:5px 10px; border-radius:7px; font-variant-numeric:tabular-nums; background:#20252f; color:var(--muted)}
+  .dday.soon{background:rgba(255,107,107,.14); color:var(--danger)}
+  .dday.mid{background:rgba(243,201,105,.14); color:var(--warn)}
+
+  .card h2{margin:0 0 8px; font-size:25px; line-height:1.25; font-weight:700; letter-spacing:-0.02em}
+  .org{font-size:14px; color:var(--muted); font-weight:600; margin-bottom:18px}
+  .tags{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:18px}
+  .tag{font-size:11.5px; font-weight:600; color:var(--muted); background:#1f242e; border:1px solid var(--line); border-radius:6px; padding:4px 9px}
+  .summary{font-size:15px; line-height:1.6; color:#d4dae6; font-weight:400; margin:0 0 22px}
+  .meta{display:flex; align-items:center; justify-content:space-between; gap:10px; padding-top:16px; border-top:1px solid var(--line)}
+  .posted{font-size:12px; color:var(--faint)}
+  .src{font-size:13px; font-weight:600; color:var(--accent,#5b8cff); text-decoration:none; display:inline-flex; align-items:center; gap:6px}
+  .src:hover{text-decoration:underline}
+
+  .empty{text-align:center; color:var(--muted); padding:60px 20px}
+  .empty .big{font-size:40px; margin-bottom:12px; opacity:.5}
+  .empty p{margin:4px 0; font-size:14px}
+
+  /* ---- nav ---- */
+  .nav{display:flex; align-items:center; justify-content:space-between; gap:14px; padding:14px 0 26px}
+  .arrow{
+    width:48px; height:48px; border-radius:13px; border:1px solid var(--panel-edge); background:var(--bg2);
+    color:var(--ink); font-size:20px; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:.15s
+  }
+  .arrow:hover:not(:disabled){background:#222836; border-color:#384155}
+  .arrow:disabled{opacity:.3; cursor:default}
+  .counter{display:flex; flex-direction:column; align-items:center; gap:4px}
+  .counter .n{font-size:15px; font-weight:700; font-variant-numeric:tabular-nums}
+  .counter .n b{color:var(--ink)} .counter .n span{color:var(--faint)}
+  .counter .hint{font-size:10.5px; color:var(--faint); letter-spacing:.04em}
+  .dots{display:flex; gap:5px; margin-top:2px; max-width:200px; flex-wrap:wrap; justify-content:center}
+  .dot2{width:6px; height:6px; border-radius:50%; background:#333b49}
+  .dot2.on{background:var(--accent,#5b8cff)}
+
+  footer{text-align:center; font-size:11px; color:var(--faint); padding:0 0 18px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <h1>오늘의 기회</h1>
+      <div class="sub">백엔드 신입·인턴 · 공모전 · 대회 — <b id="feedDate">불러오는 중…</b> 등록분</div>
+    </div>
+    <div class="daysel">
+      <label for="day">날짜</label>
+      <select id="day"></select>
+    </div>
+  </header>
+
+  <div class="filters" id="filters">
+    <button class="pill on" data-cat="all">전체 <span class="ct" id="ct-all"></span></button>
+    <button class="pill" data-cat="job"><span class="dot" style="background:var(--job)"></span>구인 <span class="ct" id="ct-job"></span></button>
+    <button class="pill" data-cat="contest"><span class="dot" style="background:var(--contest)"></span>공모전 <span class="ct" id="ct-contest"></span></button>
+    <button class="pill" data-cat="competition"><span class="dot" style="background:var(--competition)"></span>대회 <span class="ct" id="ct-competition"></span></button>
+  </div>
+
+  <div class="stage" id="stage"></div>
+
+  <div class="nav">
+    <button class="arrow" id="prev" aria-label="이전">‹</button>
+    <div class="counter">
+      <div class="n"><b id="cur">0</b> <span>/ <span id="total">0</span></span></div>
+      <div class="dots" id="dots"></div>
+      <div class="hint">← → 방향키로 넘기기</div>
+    </div>
+    <button class="arrow" id="next" aria-label="다음">›</button>
+  </div>
+</div>
+<footer>매일 자정 자동 갱신 · <a href="https://github.com/philocsera/job-feed" target="_blank" rel="noopener noreferrer">philocsera/job-feed</a></footer>
+
+<script>
+const CAT = {
+  job:        {label:"구인",   color:"#5b8cff"},
+  contest:    {label:"공모전", color:"#3ecf9a"},
+  competition:{label:"대회",   color:"#f3a25e"}
+};
+let DATA = {items:[]}, view = [], idx = 0, filter = "all";
+
+function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+
+function ddayInfo(deadline){
+  if(!deadline) return {txt:"상시 / 마감 미정", cls:""};
+  const today = new Date(); today.setHours(0,0,0,0);
+  const d = new Date(deadline+"T00:00:00");
+  if(isNaN(d)) return {txt:"상시 / 마감 미정", cls:""};
+  const diff = Math.round((d-today)/86400000);
+  if(diff < 0)  return {txt:"마감됨", cls:""};
+  if(diff === 0)return {txt:"오늘 마감", cls:"soon"};
+  if(diff <= 3) return {txt:"D-"+diff+" 마감", cls:"soon"};
+  if(diff <= 7) return {txt:"D-"+diff+" 마감", cls:"mid"};
+  return {txt:"D-"+diff+" 마감", cls:""};
+}
+
+function applyFilter(){
+  view = filter==="all" ? DATA.items.slice() : DATA.items.filter(i=>i.category===filter);
+  idx = 0; render();
+}
+
+function render(){
+  const stage = document.getElementById("stage");
+  document.getElementById("total").textContent = view.length;
+  document.getElementById("cur").textContent = view.length ? idx+1 : 0;
+  if(!view.length){
+    stage.innerHTML = `<div class="empty"><div class="big">∅</div><p>이 조건에 해당하는 새 항목이 없어요.</p><p style="color:var(--faint)">다른 카테고리를 보거나 내일 다시 확인해 주세요.</p></div>`;
+    document.getElementById("dots").innerHTML=""; gate(); return;
+  }
+  const it = view[idx]; const c = CAT[it.category] || {label:it.category,color:"#5b8cff"};
+  const dd = ddayInfo(it.deadline);
+  const tags = (it.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("");
+  stage.innerHTML = `
+    <div class="card" style="--accent:${c.color}">
+      <div class="top">
+        <span class="cat" style="background:${c.color}1f;color:${c.color}">${esc(c.label)}</span>
+        <span class="dday ${dd.cls}">${esc(dd.txt)}</span>
+      </div>
+      <h2>${esc(it.title)}</h2>
+      <div class="org">${esc(it.org||"")}</div>
+      ${tags?`<div class="tags">${tags}</div>`:""}
+      ${it.summary?`<p class="summary">${esc(it.summary)}</p>`:""}
+      <div class="meta">
+        <span class="posted">등록 ${esc(it.posted_date||DATA.date||"")}</span>
+        ${it.url?`<a class="src" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">원문 보기 ↗</a>`:""}
+      </div>
+    </div>`;
+  // dots
+  const dots = document.getElementById("dots");
+  if(view.length<=40){
+    dots.innerHTML = view.map((_,i)=>`<span class="dot2 ${i===idx?'on':''}"></span>`).join("");
+  } else dots.innerHTML="";
+  gate();
+}
+function gate(){
+  document.getElementById("prev").disabled = idx<=0;
+  document.getElementById("next").disabled = idx>=view.length-1;
+}
+function go(d){ const n=idx+d; if(n>=0&&n<view.length){idx=n; render();} }
+
+document.getElementById("prev").onclick=()=>go(-1);
+document.getElementById("next").onclick=()=>go(1);
+document.addEventListener("keydown",e=>{
+  if(e.key==="ArrowLeft")go(-1); else if(e.key==="ArrowRight")go(1);
+});
+// touch swipe
+let tx=0;
+document.addEventListener("touchstart",e=>tx=e.touches[0].clientX,{passive:true});
+document.addEventListener("touchend",e=>{const dx=e.changedTouches[0].clientX-tx; if(Math.abs(dx)>50)go(dx<0?1:-1);},{passive:true});
+
+document.querySelectorAll(".pill").forEach(p=>p.onclick=()=>{
+  document.querySelectorAll(".pill").forEach(x=>x.classList.remove("on"));
+  p.classList.add("on"); filter=p.dataset.cat; applyFilter();
+});
+
+function counts(){
+  const c={all:DATA.items.length,job:0,contest:0,competition:0};
+  DATA.items.forEach(i=>{if(c[i.category]!=null)c[i.category]++});
+  for(const k in c){const el=document.getElementById("ct-"+k); if(el)el.textContent=c[k];}
+}
+
+async function load(file){
+  const res = await fetch(file, {cache:"no-store"});
+  DATA = await res.json();
+  document.getElementById("feedDate").textContent = DATA.date || "—";
+  counts(); filter="all";
+  document.querySelectorAll(".pill").forEach(x=>x.classList.toggle("on",x.dataset.cat==="all"));
+  applyFilter();
+}
+
+async function init(){
+  try{
+    // populate day dropdown
+    let dates=[];
+    try{ const ix=await (await fetch("data/index.json",{cache:"no-store"})).json(); dates=ix.dates||[]; }catch(e){}
+    const sel=document.getElementById("day");
+    if(dates.length){
+      sel.innerHTML=dates.map(d=>`<option value="${d}">${d}</option>`).join("");
+      sel.onchange=()=>load("data/"+sel.value+".json");
+    } else { sel.innerHTML=`<option>latest</option>`; }
+    await load("data/latest.json");
+    if(dates.length) sel.value = DATA.date;
+  }catch(e){
+    document.getElementById("stage").innerHTML=`<div class="empty"><div class="big">⚠</div><p>아직 데이터가 없어요.</p><p style="color:var(--faint)">첫 자동 실행(자정) 이후 채워집니다.</p></div>`;
+    document.getElementById("feedDate").textContent="—";
+  }
+}
+init();
+</script>
+</body>
+</html>

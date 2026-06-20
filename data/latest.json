@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-20T00:00:00+09:00",
+  "items": [
+    {
+      "category": "job",
+      "title": "백엔드 신입 개발자 (예시 카드)",
+      "org": "샘플 컴퍼니",
+      "url": "https://www.wanted.co.kr/",
+      "posted_date": "2026-06-19",
+      "deadline": "2026-07-10",
+      "tags": ["백엔드", "신입", "Spring", "Kotlin"],
+      "summary": "예시 카드입니다 — 첫 자동 수집(자정) 이후 실제 공고로 교체됩니다. ←/→ 방향키 또는 좌우 스와이프로 카드를 넘겨보세요."
+    },
+    {
+      "category": "contest",
+      "title": "전국 대학생 백엔드 API 설계 공모전 (예시)",
+      "org": "샘플 협회",
+      "url": "https://linkareer.com/",
+      "posted_date": "2026-06-19",
+      "deadline": "2026-06-24",
+      "tags": ["공모전", "대학생", "API", "데이터"],
+      "summary": "예시 카드입니다. 상단 필터(전체·구인·공모전·대회)로 카테고리를 좁힐 수 있고, 마감 임박은 빨간 D-day 뱃지로 표시됩니다."
+    },
+    {
+      "category": "competition",
+      "title": "주말 AI 해커톤 — RAG 챌린지 (예시)",
+      "org": "샘플 커뮤니티",
+      "url": "https://disquiet.io/",
+      "posted_date": "2026-06-19",
+      "deadline": null,
+      "tags": ["해커톤", "AI", "Python", "팀"],
+      "summary": "예시 카드입니다. 마감일이 없으면 '상시 / 마감 미정'으로 표시됩니다. 실제 데이터는 매일 자정 자동 갱신됩니다."
+    }
+  ]
+}
