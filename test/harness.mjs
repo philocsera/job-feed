@@ -277,6 +277,15 @@ async function run() {
     ok(card(d).includes('새 항목이 없'), '[malformed] empty state shown');
   }
 
+  // 15) Home / End keys
+  {
+    const d = await boot(feed(Array.from({length:5},(_,i)=>({category:'job',title:'T'+i,url:'#',deadline:null}))));
+    key(d,'ArrowRight'); key(d,'ArrowRight');
+    eq(counter(d), '3 / 5', '[homeend] at 3 after two rights');
+    key(d,'Home'); eq(counter(d), '1 / 5', '[homeend] Home -> first');
+    key(d,'End');  eq(counter(d), '5 / 5', '[homeend] End -> last');
+  }
+
   // ---- report ----
   console.log(`\n${'='.repeat(48)}`);
   console.log(`PASS ${pass}  FAIL ${fail}`);
