@@ -234,6 +234,7 @@ function counts(){
 async function load(file){
   const res = await fetch(file, {cache:"no-store"});
   DATA = await res.json();
+  if(!Array.isArray(DATA.items)) DATA.items = [];
   document.getElementById("feedDate").textContent = DATA.date || "—";
   counts(); filter="all";
   document.querySelectorAll(".pill").forEach(x=>x.classList.toggle("on",x.dataset.cat==="all"));

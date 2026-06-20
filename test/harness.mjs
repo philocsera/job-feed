@@ -256,6 +256,27 @@ async function run() {
     eq(d.doc._byId.feedDate._text, '2026-06-18', '[day] feedDate updated on switch');
   }
 
+  // 13) REAL data smoke test (the actual data/latest.json on disk)
+  try {
+    const real = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'latest.json'), 'utf8'));
+    const fm = { 'data/index.json': { dates: [real.date] }, 'data/latest.json': real };
+    const d = await boot(fm);
+    const n = real.items.length;
+    eq(counter(d), `1 / ${n}`, '[real] counter matches real item count');
+    ok(card(d).length > 0, '[real] first real card renders');
+    for (let i = 1; i < n; i++) key(d, 'ArrowRight');
+    eq(counter(d), `${n} / ${n}`, '[real] navigated through all real cards');
+    ok(d.doc._byId.stage._html.includes('원문 보기') || n === 0, '[real] source links render');
+  } catch (e) { ok(false, '[real] smoke test threw: ' + e.message); }
+
+  // 14) malformed feed missing items key -> no crash, empty state
+  {
+    const fm = { 'data/index.json': { dates:['2026-06-19'] }, 'data/latest.json': { date:'2026-06-19' } };
+    const d = await boot(fm);
+    eq(counter(d), '0 / 0', '[malformed] missing items key -> 0/0 (no crash)');
+    ok(card(d).includes('새 항목이 없'), '[malformed] empty state shown');
+  }
+
   // ---- report ----
   console.log(`\n${'='.repeat(48)}`);
   console.log(`PASS ${pass}  FAIL ${fail}`);
