@@ -7,6 +7,13 @@
 - **수집·생성**: Claude 스킬 `/job_feed` (`~/.claude/commands/job_feed.md`) — 리서치 후 `data/*.json` 만 생성
 - **발행**: 래퍼 `run_job_feed.sh` 가 헬스체크 후 `git push` → Pages 자동 갱신
 
+## 상태 (2026-06-20 구축 완료)
+
+- ✅ 라이브 + 실제 데이터 게시됨 (첫 실측 수집 6건: 백엔드 채용 5 + 해커톤 1)
+- ✅ launchd `com.yeoukkori.job-feed` **load 완료** → 매일 00:00 자동 실행
+- ✅ 헤드리스 토큰은 `~/.config/good-morning.env` 재사용 (별도 설정 불필요)
+- ✅ 뷰어 헤드리스 테스트 **62 케이스 통과**: `node test/harness.mjs`
+
 ## 구조
 
 ```
@@ -31,10 +38,13 @@ mkdir -p ~/.config && printf 'export CLAUDE_CODE_OAUTH_TOKEN=%s\n' '<토큰>' > 
 # 2) 수동 테스트 (cron 켜기 전에 한 번 — 권장)
 /Users/johyeonseong/playground/job-feed/run_job_feed.sh ; tail -40 /tmp/yeoukkori-job-feed.log
 
-# 3) cron 켜기
+# 3) cron 켜기  (※ 이미 load 완료 — 끄려면 unload, 코드 수정 후 재적용 시 아래 재실행)
 launchctl unload ~/Library/LaunchAgents/com.yeoukkori.job-feed.plist 2>/dev/null
 launchctl load   ~/Library/LaunchAgents/com.yeoukkori.job-feed.plist
 launchctl list | grep job-feed
+
+# 5) 뷰어 로직 테스트 (브라우저 없이)
+node /Users/johyeonseong/playground/job-feed/test/harness.mjs
 
 # 4) 로컬 미리보기 (fetch는 file://에서 안 되므로 로컬 서버 필요)
 cd /Users/johyeonseong/playground/job-feed && python3 -m http.server 8765   # → http://localhost:8765
