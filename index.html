@@ -123,7 +123,7 @@
     <button class="pill" data-cat="competition"><span class="dot" style="background:var(--competition)"></span>대회 <span class="ct" id="ct-competition"></span></button>
   </div>
 
-  <div class="stage" id="stage"></div>
+  <div class="stage" id="stage" aria-live="polite" aria-atomic="true"></div>
 
   <div class="nav">
     <button class="arrow" id="prev" aria-label="이전">‹</button>
@@ -146,6 +146,7 @@ const CAT = {
 let DATA = {items:[]}, view = [], idx = 0, filter = "all";
 
 function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+function safeUrl(u){u=String(u||"").trim();return /^https?:\/\//i.test(u)?u:null}
 
 function ddayInfo(deadline){
   if(!deadline) return {txt:"상시 / 마감 미정", cls:""};
@@ -175,6 +176,7 @@ function render(){
   }
   const it = view[idx]; const c = CAT[it.category] || {label:it.category,color:"#5b8cff"};
   const dd = ddayInfo(it.deadline);
+  const url = safeUrl(it.url);
   const tags = (it.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("");
   stage.innerHTML = `
     <div class="card" style="--accent:${c.color}">
@@ -183,12 +185,12 @@ function render(){
         <span class="dday ${dd.cls}">${esc(dd.txt)}</span>
       </div>
       <h2>${esc(it.title)}</h2>
-      <div class="org">${esc(it.org||"")}</div>
+      ${it.org?`<div class="org">${esc(it.org)}</div>`:""}
       ${tags?`<div class="tags">${tags}</div>`:""}
       ${it.summary?`<p class="summary">${esc(it.summary)}</p>`:""}
       <div class="meta">
         <span class="posted">등록 ${esc(it.posted_date||DATA.date||"")}</span>
-        ${it.url?`<a class="src" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">원문 보기 ↗</a>`:""}
+        ${url?`<a class="src" href="${esc(url)}" target="_blank" rel="noopener noreferrer">원문 보기 ↗</a>`:""}
       </div>
     </div>`;
   // dots
@@ -207,12 +209,16 @@ function go(d){ const n=idx+d; if(n>=0&&n<view.length){idx=n; render();} }
 document.getElementById("prev").onclick=()=>go(-1);
 document.getElementById("next").onclick=()=>go(1);
 document.addEventListener("keydown",e=>{
+  const t=e.target; if(t&&t.tagName&&/^(SELECT|INPUT|TEXTAREA)$/.test(t.tagName))return;
   if(e.key==="ArrowLeft")go(-1); else if(e.key==="ArrowRight")go(1);
 });
-// touch swipe
-let tx=0;
-document.addEventListener("touchstart",e=>tx=e.touches[0].clientX,{passive:true});
-document.addEventListener("touchend",e=>{const dx=e.changedTouches[0].clientX-tx; if(Math.abs(dx)>50)go(dx<0?1:-1);},{passive:true});
+// touch swipe (require horizontal dominance so vertical scroll doesn't trigger nav)
+let tx=0,ty=0;
+document.addEventListener("touchstart",e=>{tx=e.touches[0].clientX; ty=e.touches[0].clientY;},{passive:true});
+document.addEventListener("touchend",e=>{
+  const dx=e.changedTouches[0].clientX-tx, dy=e.changedTouches[0].clientY-ty;
+  if(Math.abs(dx)>50 && Math.abs(dx)>Math.abs(dy)) go(dx<0?1:-1);
+},{passive:true});
 
 document.querySelectorAll(".pill").forEach(p=>p.onclick=()=>{
   document.querySelectorAll(".pill").forEach(x=>x.classList.remove("on"));
