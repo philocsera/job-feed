@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-12T00:03:43+09:00",
+  "items": [
+    {
+      "category": "competition",
+      "title": "2026 AI 플랫폼 구축 경진대회 : AI Platform Build Challenge",
+      "org": "서울특별시·관악구·금천청년꿈터·서울대학교 앵커사업단 (운영: 데이콘)",
+      "url": "https://linkareer.com/activity/355927",
+      "posted_date": "2026-10-11",
+      "deadline": "2026-10-25",
+      "tags": [
+        "AI",
+        "해커톤",
+        "플랫폼 개발",
+        "대학생",
+        "데이콘"
+      ],
+      "summary": "AI 기반 서비스·플랫폼 아이디어를 실제로 작동하는 결과물로 구현하는 교육·멘토링·해커톤 연계 경진대회. 대상 제한 없이 개인 또는 1~3인 팀 참가, 10/25 17:00 신청 마감(예선 기획서는 23:59), 총 상금 100만 원."
+    },
+    {
+      "category": "competition",
+      "title": "2026 NASA International Space Apps Challenge Seoul",
+      "org": "NASA Space Apps Seoul",
+      "url": "https://www.spaceappschallenge.org/2026/local-events/seoul/",
+      "posted_date": "2026-10-11",
+      "deadline": null,
+      "tags": [
+        "해커톤",
+        "NASA",
+        "오픈데이터",
+        "AI",
+        "대학생"
+      ],
+      "summary": "NASA·우주항공청(KASA) 등의 오픈 데이터로 지구·우주 문제를 해결하는 글로벌 해커톤의 서울 지역 행사(11/14~15). 참가비 무료, 전공 무관 누구나 최대 6인 팀 또는 개인으로 참가할 수 있다."
+    }
+  ]
+}
