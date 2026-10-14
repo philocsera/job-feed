@@ -1,38 +1,38 @@
 {
-  "date": "2026-10-13",
-  "generated_at": "2026-10-14T00:04:51+09:00",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-15T00:04:33+09:00",
   "items": [
     {
-      "category": "competition",
-      "title": "「2026 청년취업사관학교 해커톤」 참가자 모집",
-      "org": "서울특별시·서울경제진흥원(SBA)",
-      "url": "https://www.wevity.com/?c=find&s=1&gbn=viewok&gp=1&ix=111628",
-      "posted_date": "2026-10-13",
-      "deadline": "2026-10-20",
+      "category": "job",
+      "title": "AI Agent Engineer(LLM · TypeScript) [신입]",
+      "org": "이우소프트",
+      "url": "https://jumpit.saramin.co.kr/position/55242853",
+      "posted_date": "2026-10-08",
+      "deadline": "2026-11-06",
       "tags": [
-        "해커톤",
-        "생성형 AI",
-        "프로토타입",
-        "청년",
-        "서울"
+        "신입",
+        "Confluence",
+        "Docker",
+        "Docker Cloud",
+        "Git"
       ],
-      "summary": "생성형 AI로 일자리·주거·교육·문화 등 서울시 청년 정책 현안을 해결하는 팀 해커톤이며, 만 15~39세 청년이면 참가할 수 있다. 서류심사로 본선 12팀 이내를 뽑아 기획·개발 멘토링을 거친 뒤 11/9 DDP에서 프로토타입을 시연하며, 총상금은 500만 원이다."
+      "summary": "신입 · 경기 화성시 동탄구 — 바텍 네트웍스 계열 덴탈 SW 전문 기업 이우소프트의 LLM·TypeScript 기반 AI Agent Engineer 포지션. 회사 소개상 '치과 영상 진단 SW' 분야 국내 1위 기업이다."
     },
     {
-      "category": "contest",
-      "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
-      "org": "대구광역시 탄소중립지원센터",
-      "url": "https://linkareer.com/activity/356503",
-      "posted_date": "2026-10-13",
-      "deadline": "2026-11-20",
+      "category": "competition",
+      "title": "Hello World AI 해커톤",
+      "org": "해커온(HACK:ON)",
+      "url": "https://linkareer.com/activity/356760",
+      "posted_date": "2026-10-14",
+      "deadline": "2026-10-30",
       "tags": [
-        "공공데이터",
+        "해커톤",
         "AI",
-        "데이터 분석",
-        "시각화",
-        "공모전"
+        "개인전",
+        "대학생",
+        "서울"
       ],
-      "summary": "대구시·공공기관 공공데이터를 1개 이상 활용해 대구의 기후·환경·탄소중립 문제를 다루는 대회로, 아이디어 제안 부문과 공공데이터 분석·시각화 부문으로 나뉜다. 참가 대상 제한이 없고(1인 1작품) 총상금은 510만 원(8작품)이며, 이메일로 접수한다(10/12~11/20)."
+      "summary": "만 14세 이상 누구나(코딩 초보 가능) 무료로 참가하는 개인전 AI 해커톤으로, 10/31(토) 13시부터 서울(마포 또는 선릉, 장소 추후 공지)에서 주제 자유로 하루 안에 만들어 배포까지 한다. 결과물 제출자 전원에게 ElevenLabs Creator 1개월, 종합 1위에게 Pro 3개월을 준다."
     }
   ]
 }
