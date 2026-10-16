@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-17T00:08:27+09:00",
+  "items": [
+    {
+      "category": "job",
+      "title": "[인턴] 백엔드 개발자",
+      "org": "넥스트그라운드",
+      "url": "https://www.wanted.co.kr/wd/392855",
+      "posted_date": "2026-10-16",
+      "deadline": "2026-10-30",
+      "tags": [
+        "신입",
+        "Java",
+        "AWS",
+        "Spring Framework",
+        "React.js"
+      ],
+      "summary": "신입·인턴 · 6개월 인턴 후 평가에 따라 정규직 전환 가능 · 서울 강남구 — 월 250만 명이 쓰는 부동산 정보 플랫폼 '집품' 운영사에서 비즈니스 로직 설계·RESTful API·DB 성능 최적화 등 백엔드 전반을 맡는다. Java 기반 Spring, MySQL/PostgreSQL 등 RDBMS, JPA·Querydsl 등 ORM 경험이 필요하며 4년제 졸업(2027년 2월 졸업 예정자 포함) 이상."
+    },
+    {
+      "category": "job",
+      "title": "[전문연구요원] 백엔드 개발자",
+      "org": "버즈빌(buzzvil)",
+      "url": "https://www.wanted.co.kr/wd/392858",
+      "posted_date": "2026-10-16",
+      "deadline": null,
+      "tags": [
+        "신입",
+        "PyTorch",
+        "ML"
+      ],
+      "summary": "경력 무관(신입 가능) · 전문연구요원 · 서울 송파구 — 인터랙션 AI 에이전트 광고 플랫폼 버즈빌에서 광고 상품·리워드 적립·정산 등 도메인 API와 대용량 트래픽 서버를 개발한다. 이공계 석사 이상(취득 예정 포함)으로 전문연구요원 편입·전직이 가능해야 하며, Go·Python 등 서버 언어와 MySQL 경험이 필요하다."
+    },
+    {
+      "category": "competition",
+      "title": "Bloom x Anthropic x Seoul AI Hub | Ambition for Korea 해커톤",
+      "org": "Bloom · Anthropic · 서울특별시/서울 AI 허브",
+      "url": "https://bloomworld.ai/community/ambition/",
+      "posted_date": "2026-10-16",
+      "deadline": "2026-10-22",
+      "tags": [
+        "해커톤",
+        "AI",
+        "Claude 크레딧",
+        "VC 심사",
+        "팀전"
+      ],
+      "summary": "Bloom이 기획하고 Anthropic·서울시·서울 AI 허브가 함께하는 원데이 AI 해커톤으로, 10/24(토) 09~21시 서울 AI 허브(서초구)에서 만 18세 이상 150명이 2~4인 팀으로 참가한다(개인별 신청·승인제, 무료, 신청 마감 10/22 19시). 참가자 전원에게 1인당 500달러 상당 Claude 크레딧이 지급되고, VC 1차 심사를 선착순으로 통과한 8팀이 저녁 샤크탱크 데모데이에서 VC 6곳 앞에서 발표한다."
+    },
+    {
+      "category": "competition",
+      "title": "2026 서울 AI 디지털 배움터 청년 해커톤",
+      "org": "주식회사 구름",
+      "url": "https://linkareer.com/activity/357358",
+      "posted_date": "2026-10-16",
+      "deadline": "2026-11-08",
+      "tags": [
+        "해커톤",
+        "AI",
+        "바이브코딩",
+        "청년",
+        "팀전"
+      ],
+      "summary": "서울의 사회문제를 AI로 해결하는 서비스를 6시간 안에 개발·발표하는 당일형 해커톤으로, 만 19~39세 청년(대학생·비전공자 포함)이 5~6인 팀으로 11/8까지 신청한다. 11/14 구름스퀘어 강남 사전 바이브코딩 세미나 후 11/21 아키스케치 성수에서 4개 트랙(돌봄·복지, 지속 가능한 가게, 청년 일자리 미스매칭, 자유주제) 중 하나로 본선을 치르며 총 300만 원 상당을 시상한다."
+    }
+  ]
+}
