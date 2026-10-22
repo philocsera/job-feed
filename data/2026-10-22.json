@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-23T08:39:48+09:00",
+  "items": [
+    {
+      "category": "job",
+      "title": "[인턴] 컴퓨터비전 엔지니어",
+      "org": "쓰리아이",
+      "url": "https://jumpit.saramin.co.kr/position/55171023",
+      "posted_date": "2026-10-01",
+      "deadline": "2026-10-30",
+      "tags": [
+        "신입",
+        "Docker",
+        "Git",
+        "Linux",
+        "Python"
+      ],
+      "summary": "신입 · 서울 강남구 역삼로25길 23 대일테크빌딩(역삼역 도보 6분 이내) — VR/AR/3D, 서버/백엔드"
+    },
+    {
+      "category": "job",
+      "title": "웹 개발자 채용 (신입)",
+      "org": "아이엔마케팅",
+      "url": "https://jumpit.saramin.co.kr/position/55163822",
+      "posted_date": "2026-10-01",
+      "deadline": "2026-10-30",
+      "tags": [
+        "신입",
+        "CSS 3",
+        "Firebase",
+        "Google Analytics",
+        "HTML5"
+      ],
+      "summary": "신입 · 경기 파주시 헤이리마을길 48-57 — Google Ads·SEO·AEO(GEO) 전문성에 AI 기술과 데이터 분석을 결합해 고객사 광고 성과를 직접 책임지는 회사의 웹 개발 포지션."
+    },
+    {
+      "category": "job",
+      "title": "웹 풀스택 개발자 (주언어: .NET) 신입",
+      "org": "스포츠투아이",
+      "url": "https://jumpit.saramin.co.kr/position/55224024",
+      "posted_date": "2026-10-07",
+      "deadline": "2026-11-05",
+      "tags": [
+        "신입",
+        ".NET",
+        "C#",
+        "Java",
+        "JavaScript"
+      ],
+      "summary": "신입 · 경기 성남시 분당구 벌말로50번길 41 — 업력 20년 이상의 스포츠 데이터 처리업체로, 야구·축구·골프·농구 등 스포츠 기록 DB 기반 S/W를 개발해 프로스포츠 구단·신문 방송사·인터넷 포털에 제공한다."
+    },
+    {
+      "category": "competition",
+      "title": "Hack the Audience 2026 — Render × XYZ × Tin Computer 후원 글로벌 테크 해커톤",
+      "org": "Extriver Partners (후원 Render · XYZ · Tin Computer)",
+      "url": "https://linkareer.com/activity/358769",
+      "posted_date": "2026-10-22",
+      "deadline": "2026-11-15",
+      "tags": [
+        "해커톤",
+        "온라인",
+        "백엔드",
+        "AI",
+        "대학생"
+      ],
+      "summary": "합산 팔로워 200만 명 이상인 인플루언서 5명의 팬덤을 분석해 판매할 수 있는 소프트웨어 MVP를 만드는 100% 온라인 해커톤으로, 11/5~12/5에 개인 또는 최대 3인 팀으로 진행한다(전공 무관, Backend 트랙은 Python·Node.js·FastAPI). 현금 상금 총 $1,600와 Render·Tin Computer 크레딧을 주고 상용화 선정작에는 24개월간 순수익 20%를 배분하며, 접수 마감 표기는 위비티 11/15, 링커리어 12/6으로 서로 다르다."
+    }
+  ]
+}
