@@ -1,5 +1,54 @@
 {
-  "date": "2026-10-25",
-  "generated_at": "2026-10-26T00:03:18+09:00",
-  "items": []
+  "date": "2026-10-26",
+  "generated_at": "2026-10-27T09:55:36+09:00",
+  "items": [
+    {
+      "category": "competition",
+      "title": "[데이콘] 제주 AI·빅데이터 활용 AI Agent 개발 챌린지",
+      "org": "데이콘 주식회사",
+      "url": "https://linkareer.com/activity/359517",
+      "posted_date": "2026-10-26",
+      "deadline": "2026-11-20",
+      "tags": [
+        "AI Agent",
+        "데이터",
+        "제주",
+        "경진대회",
+        "온라인"
+      ],
+      "summary": "제주빅데이터센터·제주데이터허브 데이터를 활용해 AI Agent 기반 서비스를 개발하는 챌린지로, 일반인·학생 누구나 참가할 수 있다. 총상금 500만 원(대상 300만 원)이며 DAKER 대회 페이지에서 11/20 10:00까지 제출한다."
+    },
+    {
+      "category": "competition",
+      "title": "[데이콘] HAI(하이)! Hecto AI × Wallet Service Challenge",
+      "org": "데이콘 주식회사",
+      "url": "https://linkareer.com/activity/359518",
+      "posted_date": "2026-10-26",
+      "deadline": "2026-12-21",
+      "tags": [
+        "AI",
+        "웹서비스",
+        "API",
+        "핀테크",
+        "경진대회"
+      ],
+      "summary": "Octet API와 오하이월렛을 활용해 월렛 기반 AI 웹서비스와 비즈니스 모델을 개발하는 대회로, 대학(원)생·일반인 누구나 참가할 수 있다. 총상금 2,600만 원이며 12/21 10:00 마감이다."
+    },
+    {
+      "category": "competition",
+      "title": "[엘리스] 과기부 × 엘리스 AI 챌린지: 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
+      "org": "엘리스그룹",
+      "url": "https://linkareer.com/activity/359552",
+      "posted_date": "2026-10-26",
+      "deadline": "2026-11-13",
+      "tags": [
+        "AI",
+        "서비스 개발",
+        "PoC",
+        "온라인",
+        "경진대회"
+      ],
+      "summary": "AI로 실생활 문제를 해결하는 기획안·PoC를 개인 또는 최대 4인 팀이 전 과정 온라인으로 제출하는 대회로, 청소년·성인 부문이 있다. 11/13까지 접수, 11/14~22 제출이며 참가자 전원에게 Helpy Chat 토큰과 바이브코딩 교육을, 우수작에 NIA 원장상(추진)·약 100만 원 상당 개발 크레딧을 준다."
+    }
+  ]
 }
