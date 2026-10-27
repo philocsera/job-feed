@@ -1,54 +1,70 @@
 {
-  "date": "2026-10-26",
-  "generated_at": "2026-10-27T09:55:36+09:00",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-28T00:06:17+09:00",
   "items": [
     {
+      "category": "job",
+      "title": "콘텐츠 플랫폼 백엔드 개발(신입)",
+      "org": "드림어스컴퍼니",
+      "url": "https://jumpit.saramin.co.kr/position/55354317",
+      "posted_date": "2026-10-23",
+      "deadline": "2026-11-21",
+      "tags": [
+        "신입",
+        "Elasticsearch",
+        "Java",
+        "Kafka",
+        "Kotlin"
+      ],
+      "summary": "신입 · 서울 강남구 테헤란로14길16 — DBA,devops/시스템 엔지니어,서버/백엔드"
+    },
+    {
+      "category": "contest",
+      "title": "[국토교통부] 2026 SCX NEXT 청년 스마트건설 AI 랩",
+      "org": "국토교통부",
+      "url": "https://linkareer.com/activity/360055",
+      "posted_date": "2026-10-27",
+      "deadline": "2026-10-30",
+      "tags": [
+        "생성형 AI",
+        "스마트건설",
+        "대학생",
+        "청년",
+        "공모전"
+      ],
+      "summary": "생성형 AI를 활용해 스마트건설 현장 문제를 해결하는 공모전으로, AI·데이터·건축·토목 등 관련 분야 대학(원)생과 만 39세 이하 청년 기술인이 대상이다. 10/30 18:00까지 smartconexpo.com에서 온라인 접수하며, 팀 단위로 시상해 총 230만 원(대상 100만 원)과 Genspark AI 특별상을 준다."
+    },
+    {
       "category": "competition",
-      "title": "[데이콘] 제주 AI·빅데이터 활용 AI Agent 개발 챌린지",
-      "org": "데이콘 주식회사",
-      "url": "https://linkareer.com/activity/359517",
-      "posted_date": "2026-10-26",
-      "deadline": "2026-11-20",
+      "title": "LOTTE AX CHALLENGE 2026",
+      "org": "롯데그룹",
+      "url": "https://linkareer.com/activity/360080",
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-04",
       "tags": [
         "AI Agent",
-        "데이터",
-        "제주",
-        "경진대회",
-        "온라인"
+        "OpenAI",
+        "채용연계",
+        "인턴십",
+        "경진대회"
       ],
-      "summary": "제주빅데이터센터·제주데이터허브 데이터를 활용해 AI Agent 기반 서비스를 개발하는 챌린지로, 일반인·학생 누구나 참가할 수 있다. 총상금 500만 원(대상 300만 원)이며 DAKER 대회 페이지에서 11/20 10:00까지 제출한다."
+      "summary": "롯데 7개 계열사 실무 과제 중 하나를 골라 기획서·포트폴리오로 예선(10/28~11/4)을 치르고, 본선(11/24~25, 롯데인재개발원 오산캠퍼스)에서 OpenAI가 제공하는 개발 환경으로 AI 에이전트를 만든다. 학력·나이 제한이 없으며, 총상금 2,000만 원과 함께 수상자가 롯데 I'M 전형에 지원하면 채용 전환형 인턴십 혜택을 준다."
     },
     {
       "category": "competition",
-      "title": "[데이콘] HAI(하이)! Hecto AI × Wallet Service Challenge",
-      "org": "데이콘 주식회사",
-      "url": "https://linkareer.com/activity/359518",
-      "posted_date": "2026-10-26",
-      "deadline": "2026-12-21",
+      "title": "2026 AI 활용 전국 대학생 창업 해커톤",
+      "org": "교육부·한국교육학술정보원(KERIS)",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=viewok&gp=1&ix=111965",
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-11",
       "tags": [
+        "해커톤",
         "AI",
-        "웹서비스",
-        "API",
-        "핀테크",
-        "경진대회"
+        "에듀테크",
+        "프로토타입",
+        "대학생"
       ],
-      "summary": "Octet API와 오하이월렛을 활용해 월렛 기반 AI 웹서비스와 비즈니스 모델을 개발하는 대회로, 대학(원)생·일반인 누구나 참가할 수 있다. 총상금 2,600만 원이며 12/21 10:00 마감이다."
-    },
-    {
-      "category": "competition",
-      "title": "[엘리스] 과기부 × 엘리스 AI 챌린지: 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
-      "org": "엘리스그룹",
-      "url": "https://linkareer.com/activity/359552",
-      "posted_date": "2026-10-26",
-      "deadline": "2026-11-13",
-      "tags": [
-        "AI",
-        "서비스 개발",
-        "PoC",
-        "온라인",
-        "경진대회"
-      ],
-      "summary": "AI로 실생활 문제를 해결하는 기획안·PoC를 개인 또는 최대 4인 팀이 전 과정 온라인으로 제출하는 대회로, 청소년·성인 부문이 있다. 11/13까지 접수, 11/14~22 제출이며 참가자 전원에게 Helpy Chat 토큰과 바이브코딩 교육을, 우수작에 NIA 원장상(추진)·약 100만 원 상당 개발 크레딧을 준다."
+      "summary": "전국 대학 재학생 2~4인 팀(25팀)이 교육·관광교통·돌봄·골목상권·재난안전 중 한 분야의 지역 문제를 골라 AI 기반 해결책과 프로토타입을 만드는 무박 2일 해커톤이다(11/19~20, 한림대). 11/11 17:00까지 구글폼으로 접수하며, 팀별 사전 멘토링을 제공하고 총상금은 1,500만 원(대상 500만 원)이다."
     }
   ]
 }

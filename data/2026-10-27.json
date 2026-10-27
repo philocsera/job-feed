@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-28T00:06:17+09:00",
+  "items": [
+    {
+      "category": "job",
+      "title": "콘텐츠 플랫폼 백엔드 개발(신입)",
+      "org": "드림어스컴퍼니",
+      "url": "https://jumpit.saramin.co.kr/position/55354317",
+      "posted_date": "2026-10-23",
+      "deadline": "2026-11-21",
+      "tags": [
+        "신입",
+        "Elasticsearch",
+        "Java",
+        "Kafka",
+        "Kotlin"
+      ],
+      "summary": "신입 · 서울 강남구 테헤란로14길16 — DBA,devops/시스템 엔지니어,서버/백엔드"
+    },
+    {
+      "category": "contest",
+      "title": "[국토교통부] 2026 SCX NEXT 청년 스마트건설 AI 랩",
+      "org": "국토교통부",
+      "url": "https://linkareer.com/activity/360055",
+      "posted_date": "2026-10-27",
+      "deadline": "2026-10-30",
+      "tags": [
+        "생성형 AI",
+        "스마트건설",
+        "대학생",
+        "청년",
+        "공모전"
+      ],
+      "summary": "생성형 AI를 활용해 스마트건설 현장 문제를 해결하는 공모전으로, AI·데이터·건축·토목 등 관련 분야 대학(원)생과 만 39세 이하 청년 기술인이 대상이다. 10/30 18:00까지 smartconexpo.com에서 온라인 접수하며, 팀 단위로 시상해 총 230만 원(대상 100만 원)과 Genspark AI 특별상을 준다."
+    },
+    {
+      "category": "competition",
+      "title": "LOTTE AX CHALLENGE 2026",
+      "org": "롯데그룹",
+      "url": "https://linkareer.com/activity/360080",
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-04",
+      "tags": [
+        "AI Agent",
+        "OpenAI",
+        "채용연계",
+        "인턴십",
+        "경진대회"
+      ],
+      "summary": "롯데 7개 계열사 실무 과제 중 하나를 골라 기획서·포트폴리오로 예선(10/28~11/4)을 치르고, 본선(11/24~25, 롯데인재개발원 오산캠퍼스)에서 OpenAI가 제공하는 개발 환경으로 AI 에이전트를 만든다. 학력·나이 제한이 없으며, 총상금 2,000만 원과 함께 수상자가 롯데 I'M 전형에 지원하면 채용 전환형 인턴십 혜택을 준다."
+    },
+    {
+      "category": "competition",
+      "title": "2026 AI 활용 전국 대학생 창업 해커톤",
+      "org": "교육부·한국교육학술정보원(KERIS)",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=viewok&gp=1&ix=111965",
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-11",
+      "tags": [
+        "해커톤",
+        "AI",
+        "에듀테크",
+        "프로토타입",
+        "대학생"
+      ],
+      "summary": "전국 대학 재학생 2~4인 팀(25팀)이 교육·관광교통·돌봄·골목상권·재난안전 중 한 분야의 지역 문제를 골라 AI 기반 해결책과 프로토타입을 만드는 무박 2일 해커톤이다(11/19~20, 한림대). 11/11 17:00까지 구글폼으로 접수하며, 팀별 사전 멘토링을 제공하고 총상금은 1,500만 원(대상 500만 원)이다."
+    }
+  ]
+}
