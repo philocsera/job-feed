@@ -1,38 +1,38 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-29T00:06:19+09:00",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-30T09:10:33+09:00",
   "items": [
     {
-      "category": "competition",
-      "title": "2026 서울시립대학교 AI+X 실전 문제해결 프로젝트 2기",
-      "org": "서울시립대학교 캠퍼스타운사업단 (운영: 데이터스케쳐스)",
-      "url": "https://linkareer.com/activity/360443",
-      "posted_date": "2026-10-28",
-      "deadline": "2026-11-04",
+      "category": "job",
+      "title": "백엔드 개발자 (신입)",
+      "org": "티엔에이치",
+      "url": "https://jumpit.saramin.co.kr/position/55299151",
+      "posted_date": "2026-10-20",
+      "deadline": "2026-11-18",
       "tags": [
-        "해커톤",
-        "바이브코딩",
-        "웹서비스",
-        "공공데이터 API",
-        "대학생"
+        "신입",
+        "Amazon EMR",
+        "Docker",
+        "Git",
+        "JavaScript"
       ],
-      "summary": "AI 코딩 도구로 창업 아이템을 실제 웹서비스로 구현하는 해커톤으로, 대학생·청년 30명을 뽑아 온라인 교육 3회(11/11~13, AI 코딩 도구·공공데이터 API 연결·웹서비스 실행 실습) 후 11/14~15 서울시립대 창의혁신관에서 오프라인 해커톤을 연다. 11/4까지 구글폼으로 신청하며 참가비는 무료이고, 총상금 200만 원(1등 100만 원)과 ChatGPT 1개월 구독권을 준다."
+      "summary": "신입 · 경기 성남시 분당구 — 병·의원용 CRM·EMR 솔루션을 개발·공급하는 헬스케어 소프트웨어 기업 TNH(주)(2008년 설립)의 백엔드 신입 포지션."
     },
     {
-      "category": "competition",
-      "title": "2026 대구 대학(원) AI 드래프톤",
-      "org": "대구광역시·대구테크노파크",
-      "url": "https://linkareer.com/activity/360309",
-      "posted_date": "2026-10-28",
-      "deadline": "2026-11-15",
+      "category": "job",
+      "title": "[AI Agent 스타트업] 풀스택 개발자",
+      "org": "제트",
+      "url": "https://www.rallit.com/positions/4446",
+      "posted_date": "2026-10-29",
+      "deadline": null,
       "tags": [
-        "AI",
-        "해커톤",
-        "정책제안",
-        "대학생",
-        "대구"
+        "신입/경력/시니어",
+        "Next.js",
+        "React",
+        "FastAPI",
+        "Python"
       ],
-      "summary": "AI 산업·AI 행정 중 한 트랙을 골라 무박 2일(11/25~26, 대구 EXCO) 동안 정책제안서 1쪽과 발표자료 5장을 만드는 대회로, 코딩보다 기획·제안 중심이다. 만 34세 이하 전국 대학(원)생이 같은 학교 3~4인 팀으로 참가하며(개인 신청 시 팀 편성), 11/15까지 drafthon.ai.kr에서 신청해 50팀을 뽑고 총상금 950만 원(대상 500만 원)에 식사와 팀당 노트북 대여를 지원한다."
+      "summary": "신입/경력/시니어 · 마포 — 마케터가 디자이너 없이 혼자 광고를 만들고 실험하는 마케팅 AI Agent ZET를 만드는 스타트업의 풀스택 포지션(Next.js·React·FastAPI·Python)."
     }
   ]
 }
