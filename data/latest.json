@@ -1,112 +1,36 @@
 {
-  "date": "2026-10-30",
-  "generated_at": "2026-10-31T00:04:41+09:00",
+  "date": "2026-10-31",
+  "generated_at": "2026-11-01T00:22:57+09:00",
   "items": [
     {
       "category": "job",
-      "title": "클라우드 엔지니어 신입 모집",
-      "org": "이비즈테크",
-      "url": "https://jumpit.saramin.co.kr/position/55185511",
-      "posted_date": "2026-10-04",
-      "deadline": "2026-11-02",
+      "title": "AI기반 가상머신개발AX(신입)",
+      "org": "쿤텍",
+      "url": "https://jumpit.saramin.co.kr/position/55325059",
+      "posted_date": "2026-10-19",
+      "deadline": "2026-11-17",
       "tags": [
         "신입",
-        "Azure DevOps",
-        "Linux",
-        "Windows",
-        "AWS"
+        "AI/인공지능",
+        "FastAPI"
       ],
-      "summary": "신입 · 서울 마포구 성암로 189 — 클라우드 엔지니어 신입 모집(Azure DevOps·Linux·Windows·AWS). 직무 분류: 기술지원·iOS·빅데이터·DevOps/시스템."
-    },
-    {
-      "category": "job",
-      "title": "[인턴] 백엔드 개발자",
-      "org": "넥스트그라운드",
-      "url": "https://www.wanted.co.kr/wd/395578",
-      "posted_date": "2026-10-30",
-      "deadline": "2026-11-13",
-      "tags": [
-        "신입",
-        "Java",
-        "AWS",
-        "Spring Framework",
-        "React.js"
-      ],
-      "summary": "0-1년 · 서울 강남구 테헤란로7길 22, 스파크플러스 — 월 250만 명이 사용하는 부동산 정보 플랫폼 '집품' 운영사의 백엔드 인턴(Java·Spring·AWS). 2024년 하반기 흑자 달성."
-    },
-    {
-      "category": "job",
-      "title": "[신입/경력] AI Platform Engineer",
-      "org": "딥오토",
-      "url": "https://jumpit.saramin.co.kr/position/55300900",
-      "posted_date": "2026-10-16",
-      "deadline": "2026-11-14",
-      "tags": [
-        "신입",
-        "Python",
-        "AWS",
-        "SQL",
-        "OneSaas"
-      ],
-      "summary": "신입 · 서울 강남구 테헤란로 216 — KAIST AI대학원 출신 연구진이 창립한, 엔지니어링 도면(PFD·P&ID)을 읽는 AI 스타트업의 AI Platform Engineer 신입/경력 포지션(Python·AWS·SQL)."
-    },
-    {
-      "category": "job",
-      "title": "백엔드 개발자 (Backend Engineer)",
-      "org": "(주)메이아이",
-      "url": "https://www.rallit.com/positions/4451",
-      "posted_date": "2026-10-30",
-      "deadline": "2026-11-27",
-      "tags": [
-        "신입/경력/시니어",
-        "Python"
-      ],
-      "summary": "신입/경력/시니어 · 강남 — (주)메이아이 백엔드 엔지니어(Python) 포지션. 지원은 메이아이 공식 채용 페이지(그리팅)에서 진행."
-    },
-    {
-      "category": "contest",
-      "title": "2026년 제2회 Tech-GPT 서비스 경진대회",
-      "org": "한국전자정보통신산업진흥회",
-      "url": "https://linkareer.com/activity/361063",
-      "posted_date": "2026-10-30",
-      "deadline": "2026-11-06",
-      "tags": [
-        "AI",
-        "데이터",
-        "아이디어",
-        "대학생"
-      ],
-      "summary": "전국 대학(원)생·일반인(개인 또는 4인 이하 팀) 대상, Tech-GPT 플랫폼 검색 데이터를 반드시 활용한 DATA·AI 융합 사업 아이디어 공모. 최우수상 200만 원 상당 부상 등."
-    },
-    {
-      "category": "contest",
-      "title": "2026 Soul Mate Pioneers 창업경진대회",
-      "org": "서울앵커센터",
-      "url": "https://linkareer.com/activity/361047",
-      "posted_date": "2026-10-30",
-      "deadline": "2026-11-15",
-      "tags": [
-        "AI",
-        "창업",
-        "대학생",
-        "팀 2~5인"
-      ],
-      "summary": "서울 소재 대학 재·휴학생이 대표인 2~5인 팀 대상 AI 기술 기반 창업 아이디어 경진대회(기술 구현 가능성 평가, 전 과정 영어 진행). 총상금 900만 원."
+      "summary": "신입 · 경기 성남시 수정구 창업로54 — 쿤텍의 AI 기반 가상머신 개발(AX) 신입 포지션(FastAPI). 직무 분류: 인공지능/머신러닝·빅데이터."
     },
     {
       "category": "competition",
-      "title": "2026 성평등 AI 벤치마크 챌린지",
-      "org": "성평등가족부",
-      "url": "https://linkareer.com/activity/361052",
-      "posted_date": "2026-10-30",
-      "deadline": "2026-11-20",
+      "title": "2026 현장문제 AX 아이디어 해커톤",
+      "org": "중소벤처기업진흥공단·충청남도 외 (주관 KAIST)",
+      "url": "https://linkareer.com/activity/361137",
+      "posted_date": "2026-10-31",
+      "deadline": "2026-11-17",
       "tags": [
+        "해커톤",
         "AI",
-        "LLM",
-        "프롬프트",
-        "AI 안전성"
+        "제조 AX",
+        "대학생",
+        "오프라인"
       ],
-      "summary": "성평등 AI 안전성 벤치마크 데이터셋으로 주요 LLM 취약점을 분석하고 안전 대응력을 높이는 프롬프트를 설계하는 챌린지(누구나, 개인 또는 5인 이하 팀). 접수 11/2~11/20, 최우수 150만 원 등."
+      "summary": "제조 현장 문제(품질·설비·안전·데이터 활용 등)를 AI로 해결하는 아이디어를 기획·발표하는 해커톤으로, 대학생·일반인 선착순 50명(3~4인 팀 편성)을 모집. 본선 11/27~28 천안 충남지식산업센터, 참가비 무료·총상금 200만 원."
     }
   ]
 }
