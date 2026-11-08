@@ -1,22 +1,22 @@
 {
-  "date": "2026-11-07",
-  "generated_at": "2026-11-08T00:04:15+09:00",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-09T00:03:35+09:00",
   "items": [
     {
-      "category": "competition",
-      "title": "Korea Local Marketing Hackathon 2026",
-      "org": "해커온(HACK:ON)",
-      "url": "https://hackon.kr/e/002e1704",
-      "posted_date": "2026-11-07",
-      "deadline": "2026-11-16",
+      "category": "job",
+      "title": "IT/AI부문(전문연구요원 포함)신입",
+      "org": "연합인포맥스",
+      "url": "https://jumpit.saramin.co.kr/position/55451145",
+      "posted_date": "2026-11-02",
+      "deadline": "2026-12-01",
       "tags": [
-        "해커톤",
-        "AI",
-        "MVP",
-        "서울",
-        "무료"
+        "신입",
+        "Azure DevOps",
+        "Python",
+        "AWS",
+        "GCP"
       ],
-      "summary": "찐로컬 장소·코스·사진을 모아 외국인 여행자용 지도를 AI로 만드는 MVP 해커톤으로, 문제는 Trip-Pups가 내고 만든 MVP는 운영진이 직접 써 본다. 11/21(토) 09:30–12:40 서울 마포 인근(장소 추후 안내)에서 열리며 참가비 무료·32명 선발(신청 ~11/16)."
+      "summary": "신입 · 서울 종로구 — 경제·금융정보 미디어 연합인포맥스의 IT/AI부문 신입 채용(전문연구요원 포함)."
     }
   ]
 }
