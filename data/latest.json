@@ -1,38 +1,22 @@
 {
-  "date": "2026-11-17",
-  "generated_at": "2026-11-18T00:05:17+09:00",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-19T00:04:47+09:00",
   "items": [
     {
-      "category": "job",
-      "title": "AI Agent Engineer(LLM · TypeScript) [신입]",
-      "org": "이우소프트",
-      "url": "https://jumpit.saramin.co.kr/position/55519198",
-      "posted_date": "2026-11-09",
-      "deadline": "2026-12-08",
+      "category": "contest",
+      "title": "2026 강원 차세대 과학전문가상 공모전",
+      "org": "(재)강원연구개발지원단 강원과학문화거점센터",
+      "url": "https://linkareer.com/activity/365425",
+      "posted_date": "2026-11-18",
+      "deadline": "2026-11-30",
       "tags": [
-        "신입",
-        "Confluence",
-        "Docker",
-        "Docker Cloud",
-        "Git"
-      ],
-      "summary": "신입 · 경기 화성시 동탄구 — 글로벌 헬스케어 그룹 바텍 네트웍스의 덴탈 SW 전문 기업으로, '치과 영상 진단 SW' 분야 국내 1위다."
-    },
-    {
-      "category": "competition",
-      "title": "2027 제2회 Superb AI × BDAI Vision AI 해커톤",
-      "org": "Superb AI × 비디에이아이(BDAI)",
-      "url": "https://linkareer.com/activity/365130",
-      "posted_date": "2026-11-17",
-      "deadline": "2027-01-10",
-      "tags": [
-        "해커톤",
-        "Vision AI",
-        "대학생",
         "데이터",
-        "팀전"
+        "AI",
+        "공모전",
+        "대학생",
+        "강원"
       ],
-      "summary": "Superb AI 플랫폼으로 제조·산업안전/물류·모빌리티 중 한 트랙의 실제 산업 문제를 골라 데이터 구축→모델 개발→서비스 데모까지 만드는 해커톤이다(대학(원)생·취준생·졸업생, 개인 또는 최대 4인 팀, 현직자 불가). 총상금 100만 원이며 수상팀은 Superb AI 인재풀에 등록되고, 온라인 개발 후 2027-02-27 오프라인 최종 발표가 있다."
+      "summary": "강원특별자치도 지역 현안을 데이터 기반으로 분석하고 해결 아이디어를 내는 자유 주제 공모전이며, 데이터·AI에 관심 있는 강원도민이나 도내 학교·대학(원)·기업·기관 소속자가 참가할 수 있다. 총 4팀에 총상금 500만 원(대상 200만 원)을 주고, 강원과학문화거점센터 홈페이지에서 11-30 18:00까지 온라인으로 접수한다."
     }
   ]
 }
