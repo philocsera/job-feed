@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-22T00:04:11+09:00",
+  "items": [
+    {
+      "category": "job",
+      "title": "반도체 MES 개발자 신입 채용",
+      "org": "엘비세미콘",
+      "url": "https://jumpit.saramin.co.kr/position/55417074",
+      "posted_date": "2026-10-28",
+      "deadline": "2026-11-26",
+      "tags": [
+        "신입",
+        ".NET",
+        "C#",
+        "C++",
+        "Oracle"
+      ],
+      "summary": "신입 · 경기 평택시 청북산단로138 — 반도체 패키징(Gold·Solder·Cu pillar bumping, WLCSP) 기업 엘비세미콘의 MES 개발자 채용으로, .NET·C#·C++·Oracle 스택을 다룬다."
+    }
+  ]
+}
