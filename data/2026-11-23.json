@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-24T08:26:54+09:00",
+  "items": [
+    {
+      "category": "job",
+      "title": "[인턴] 백엔드 개발자",
+      "org": "비모소프트",
+      "url": "https://www.wanted.co.kr/wd/399719",
+      "posted_date": "2026-11-23",
+      "deadline": "2026-12-12",
+      "tags": [
+        "신입"
+      ],
+      "summary": "0-1년 · 경기 안양시 동안구 — 초보자용 영상 편집 앱 VLLO와 중고급자용 iPad 전용 영상 편집 앱 WEILO를 서비스하는 비모소프트의 백엔드 개발 인턴 채용이다."
+    },
+    {
+      "category": "job",
+      "title": "[디지털헬스케어] 코틀린/스프링(Kotlin/Spring) 백엔드 개발자 채용",
+      "org": "주식회사 비욘드메디슨",
+      "url": "https://www.rallit.com/positions/3695",
+      "posted_date": "2026-11-23",
+      "deadline": null,
+      "tags": [
+        "경력/시니어/신입/TOP",
+        "Kotlin",
+        "Spring",
+        "AWS"
+      ],
+      "summary": "경력/시니어/신입 · 강남 — 인지 행동 치료(CBT) 기반 턱관절 장애 관리 디지털 치료제(DTx)를 개발하는 헬스케어 스타트업 비욘드메디슨의 Kotlin/Spring 백엔드 개발자 채용이다."
+    },
+    {
+      "category": "job",
+      "title": "백엔드 개발자",
+      "org": "데일리펀딩",
+      "url": "https://www.rallit.com/positions/201",
+      "posted_date": "2026-11-23",
+      "deadline": null,
+      "tags": [
+        "신입/경력",
+        "Github",
+        "JIRA",
+        "Django",
+        "MySQL"
+      ],
+      "summary": "신입/경력 · 강남 — 데일리펀딩의 백엔드 개발자 채용으로 Django·MySQL·Github·JIRA가 기술 태그로 표시돼 있다. 완성된 사람보다 도전하는 사람을 기다린다고 밝히고 있다."
+    },
+    {
+      "category": "job",
+      "title": "소프트웨어 엔지니어(AI Agent)",
+      "org": "주식회사 사각",
+      "url": "https://www.rallit.com/positions/3726",
+      "posted_date": "2026-11-23",
+      "deadline": null,
+      "tags": [
+        "경력/신입",
+        "LangChain",
+        "LangGraph",
+        "Svelte",
+        "FastAPI"
+      ],
+      "summary": "경력/신입 · 마포 — 2022년 창업해 디지털 헬스케어·금융·교육 분야의 초개인화 AI 에이전트 솔루션을 제공하는 주식회사 사각의 AI Agent 소프트웨어 엔지니어 채용이다(LangChain·LangGraph·FastAPI·Svelte)."
+    },
+    {
+      "category": "job",
+      "title": "어크로스비 물류 플랫폼 풀스택 개발자 (경력/전문연구요원 가능)",
+      "org": "어크로스비",
+      "url": "https://www.rallit.com/positions/3549",
+      "posted_date": "2026-11-23",
+      "deadline": null,
+      "tags": [
+        "경력/신입",
+        "TypeScript",
+        "TypeORM",
+        "NestJS",
+        "Kotlin"
+      ],
+      "summary": "경력/신입 · 강남 — 해외↔국내 소비자 간 상품 배송을 다루는 물류 플랫폼 어크로스비의 풀스택 개발자 채용으로, TypeScript·NestJS·TypeORM·Kotlin이 기술 태그로 표시돼 있고 전문연구요원 지원도 가능하다."
+    },
+    {
+      "category": "competition",
+      "title": "Build with Qwen: AutoRAG Hackathon 2026",
+      "org": "알리바바 클라우드 (Markr · 브레인크루)",
+      "url": "https://linkareer.com/activity/366450",
+      "posted_date": "2026-11-23",
+      "deadline": "2026-11-29",
+      "tags": [
+        "해커톤",
+        "RAG",
+        "LLM",
+        "오픈소스",
+        "서울"
+      ],
+      "summary": "Qwen API로 RAG 서비스를 만들거나 AutoRAG Agent 오픈소스에 직접 기여하는 오프라인 해커톤이다(12/10 12:10~20:00, 서울 코엑스 3층 E6홀). 누구나 개인 또는 최대 4인 팀으로 11/29 23:59까지 Luma에서 무료 신청하면 심사로 본선 최대 100명을 뽑고, 두 트랙 총상금 1,500만 원(트랙별 1등 400만 원)을 현금으로 준다."
+    },
+    {
+      "category": "competition",
+      "title": "2026 서울 야간경제 활성화 해커톤 (Dopamine Seoul 24)",
+      "org": "서울특별시 · 서울창업허브·SBA (운영 인공지능팩토리)",
+      "url": "https://linkareer.com/activity/366175",
+      "posted_date": "2026-11-23",
+      "deadline": "2026-12-07",
+      "tags": [
+        "해커톤",
+        "공공데이터",
+        "서비스개발",
+        "서울",
+        "청년"
+      ],
+      "summary": "서울 열린데이터를 바탕으로 골목 연결·공공 상생·청년라이프&홍보 3개 주제에서 야간경제 활성화를 위한 시민 체감형 서비스를 만드는 해커톤이다(본선 12/18~19). 만 15~39세 최대 5인 팀(서비스 개발 트랙은 개발 가능 인원 1명 이상)이 12/7 23:59까지 접수·예선을 거쳐 본선 20팀을 가리며, 총상금 1,500만 원(대상 500만 원) 규모다."
+    },
+    {
+      "category": "contest",
+      "title": "AI학과 2026 『일상의 편리를 위한 AI서비스개발』 공모전",
+      "org": "세종사이버대학교 AI학과",
+      "url": "https://linkareer.com/activity/366278",
+      "posted_date": "2026-11-23",
+      "deadline": "2026-12-11",
+      "tags": [
+        "AI",
+        "웹앱",
+        "서비스개발",
+        "공모전",
+        "개인참가"
+      ],
+      "summary": "생성형 AI 등 AI 도구를 활용해 일상의 불편을 해결하는 웹앱·프로토타입·AI 자동화 서비스를 직접 만들어 실행 가능한 URL·사용설명서·시연 영상·발표자료로 제출하는 공모전이다. 누구나 개인 또는 3인 이하 팀으로 12/11까지 참가할 수 있고, 대상 30만 원·우수상 20만 원(각 1팀)을 시상한다."
+    }
+  ]
+}
