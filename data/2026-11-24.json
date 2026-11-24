@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-25T08:13:11+09:00",
+  "items": [
+    {
+      "category": "job",
+      "title": "[코드잇 스프린트] IT 창업 부트캠프 멘토 (풀스택 개발)",
+      "org": "코드잇",
+      "url": "https://www.rallit.com/positions/4114",
+      "posted_date": "2026-11-24",
+      "deadline": null,
+      "tags": [
+        "신입/경력/시니어/TOP",
+        "backend",
+        "frontend"
+      ],
+      "summary": "신입/경력/시니어/TOP · 서울 — 코드잇의 부트캠프 브랜드 '스프린트'(총 28주 과정으로 주니어 수준 실무자를 양성하고 취업을 지원)에서 IT 창업 부트캠프의 풀스택 개발 멘토를 모집한다."
+    },
+    {
+      "category": "job",
+      "title": "웹 풀스택 개발자(프론트 개발자 지원 가능)",
+      "org": "주식회사 투스텝스어헤드",
+      "url": "https://www.rallit.com/positions/4151",
+      "posted_date": "2026-11-24",
+      "deadline": null,
+      "tags": [
+        "신입/BEGINNER",
+        "Node.js",
+        "React",
+        "React Native",
+        "JavaScript"
+      ],
+      "summary": "신입/BEGINNER · 강남 — 검색의 기준이 순위에서 'AI가 누구를 인용하는가'로 바뀌었다고 소개하는 투스텝스어헤드의 웹 풀스택 개발자 채용으로, 프론트 개발자도 지원할 수 있다(Node.js·React·React Native·JavaScript)."
+    },
+    {
+      "category": "competition",
+      "title": "대구광역시 남구 AI 행정혁신 경진대회",
+      "org": "대구광역시 남구청 · 계명대학교 창업지원단",
+      "url": "https://kubic.kmu.ac.kr/kubic2025/35015/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa3ViaWMyMDI1JTJGMjQ0MSUyRjI0MTkxNyUyRmFydGNsVmlldy5kbyUzRnBhZ2UlM0QxJTI2ZmluZFR5cGUlM0QlMjZmaW5kV29yZCUzRCUyNmZpbmRDbFNlcSUzRCUyNmZpbmRPcG53cmQlM0QlMjZyZ3NCZ25kZVN0ciUzRCUyNnJn",
+      "posted_date": "2026-11-24",
+      "deadline": "2026-12-09",
+      "tags": [
+        "AI",
+        "경진대회",
+        "아이디어",
+        "공공행정",
+        "대구"
+      ],
+      "summary": "행정서비스 개선·지역문제 해결에 기여할 AI 활용 아이디어를 겨루는 대회로, 만 19~39세 청년이 개인 또는 3인 이내 팀으로 12/9(수) 18:00까지 참가 신청서를 이메일로 접수한다. 서류심사(12/10)·발표심사(12/18, 계명대 대명동산관)를 거쳐 3팀(개인)을 뽑아 팀당 3,000만 원 상당의 사업화 자금(2027 청년창업루키랩 연계)을 지원한다."
+    }
+  ]
+}
