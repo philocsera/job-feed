@@ -1,52 +1,118 @@
 {
-  "date": "2026-11-24",
-  "generated_at": "2026-11-25T08:13:11+09:00",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-26T08:35:42+09:00",
   "items": [
     {
       "category": "job",
-      "title": "[코드잇 스프린트] IT 창업 부트캠프 멘토 (풀스택 개발)",
-      "org": "코드잇",
-      "url": "https://www.rallit.com/positions/4114",
-      "posted_date": "2026-11-24",
-      "deadline": null,
+      "title": "콘텐츠 플랫폼 백엔드 개발(신입)",
+      "org": "드림어스컴퍼니",
+      "url": "https://jumpit.saramin.co.kr/position/55648516",
+      "posted_date": "2026-11-23",
+      "deadline": "2026-12-22",
       "tags": [
-        "신입/경력/시니어/TOP",
-        "backend",
-        "frontend"
+        "신입",
+        "Elasticsearch",
+        "Java",
+        "Kafka",
+        "Kotlin"
       ],
-      "summary": "신입/경력/시니어/TOP · 서울 — 코드잇의 부트캠프 브랜드 '스프린트'(총 28주 과정으로 주니어 수준 실무자를 양성하고 취업을 지원)에서 IT 창업 부트캠프의 풀스택 개발 멘토를 모집한다."
+      "summary": "신입 · 서울 강남구 테헤란로14길16 — 직무: DBA, DevOps/시스템 엔지니어, 서버/백엔드"
     },
     {
       "category": "job",
-      "title": "웹 풀스택 개발자(프론트 개발자 지원 가능)",
-      "org": "주식회사 투스텝스어헤드",
-      "url": "https://www.rallit.com/positions/4151",
-      "posted_date": "2026-11-24",
+      "title": "백엔드 엔지니어",
+      "org": "코드잇",
+      "url": "https://www.rallit.com/positions/4177",
+      "posted_date": "2026-11-25",
       "deadline": null,
       "tags": [
-        "신입/BEGINNER",
-        "Node.js",
-        "React",
-        "React Native",
-        "JavaScript"
+        "신입/경력/시니어",
+        "Kotlin",
+        "GraphQL",
+        "MongoDB",
+        "Docker"
       ],
-      "summary": "신입/BEGINNER · 강남 — 검색의 기준이 순위에서 'AI가 누구를 인용하는가'로 바뀌었다고 소개하는 투스텝스어헤드의 웹 풀스택 개발자 채용으로, 프론트 개발자도 지원할 수 있다(Node.js·React·React Native·JavaScript)."
+      "summary": "신입/경력/시니어 · 서울 — 코드잇 메인 서비스(내부 제작 콘텐츠를 유저에게 제공)의 API를 개발·운영한다. 메인 서비스는 Spring Webflux·Kotlin 기반."
     },
     {
       "category": "competition",
-      "title": "대구광역시 남구 AI 행정혁신 경진대회",
-      "org": "대구광역시 남구청 · 계명대학교 창업지원단",
-      "url": "https://kubic.kmu.ac.kr/kubic2025/35015/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa3ViaWMyMDI1JTJGMjQ0MSUyRjI0MTkxNyUyRmFydGNsVmlldy5kbyUzRnBhZ2UlM0QxJTI2ZmluZFR5cGUlM0QlMjZmaW5kV29yZCUzRCUyNmZpbmRDbFNlcSUzRCUyNmZpbmRPcG53cmQlM0QlMjZyZ3NCZ25kZVN0ciUzRCUyNnJn",
-      "posted_date": "2026-11-24",
-      "deadline": "2026-12-09",
+      "title": "2026 제5회 대국민 K-water AI 경진대회",
+      "org": "한국수자원공사(K-water)",
+      "url": "https://linkareer.com/activity/367086",
+      "posted_date": "2026-11-25",
+      "deadline": "2026-12-06",
       "tags": [
         "AI",
+        "AI 에이전트",
         "경진대회",
-        "아이디어",
-        "공공행정",
-        "대구"
+        "리더보드",
+        "안전"
       ],
-      "summary": "행정서비스 개선·지역문제 해결에 기여할 AI 활용 아이디어를 겨루는 대회로, 만 19~39세 청년이 개인 또는 3인 이내 팀으로 12/9(수) 18:00까지 참가 신청서를 이메일로 접수한다. 서류심사(12/10)·발표심사(12/18, 계명대 대명동산관)를 거쳐 3팀(개인)을 뽑아 팀당 3,000만 원 상당의 사업화 자금(2027 청년창업루키랩 연계)을 지원한다."
+      "summary": "현장 사진에서 위험 유형·판단 근거·예방조치를 제시하는 AI 에이전트를 개발해 리더보드(11/25~12/13)에 모델·추론 코드를 제출하는 대회로, 국민 누구나 개인 또는 최대 5인 팀으로 12/6(일) 23:59까지 무료 신청한다. 총상금 500만 원(대상 300만 원 등 3팀 시상)."
+    },
+    {
+      "category": "competition",
+      "title": "HSK Chain Horizon 해커톤 서울 (총상금 12,000 USDT)",
+      "org": "해시키 체인(HashKey Chain)",
+      "url": "https://onoffmix.com/event/353847",
+      "posted_date": "2026-11-25",
+      "deadline": "2026-12-03",
+      "tags": [
+        "해커톤",
+        "AI 에이전트",
+        "블록체인",
+        "Web3",
+        "DeFi"
+      ],
+      "summary": "해시키 체인이 주최하는 AI 에이전트 × DeFi 해커톤으로 2개 트랙, 총상금 12,000 USDT, 참가 무료다. 12/3(목) 13:00까지 외부 접수, 12/5(토) 서울 강남 스페이스쉐어 강남센터에서 데모데이."
+    },
+    {
+      "category": "contest",
+      "title": "[한전KPS] AI 활용 전력설비 정비 및 안전지원 서비스 아이디어 공모전",
+      "org": "한전KPS",
+      "url": "https://linkareer.com/activity/366888",
+      "posted_date": "2026-11-25",
+      "deadline": "2026-12-06",
+      "tags": [
+        "AI",
+        "아이디어",
+        "전력설비",
+        "안전",
+        "공모전"
+      ],
+      "summary": "전력설비 진단·고장 예측·정비데이터 활용(정비지원 AI)과 작업자 안전모니터링·사고 예방(안전지원 AI)을 주제로 한 아이디어 공모전으로, 개인 또는 팀이 12/6(일)까지 네이버폼으로 접수한다. 최우수·우수·장상 각 1팀에 100만 원."
+    },
+    {
+      "category": "contest",
+      "title": "[상지대학교 앵커사업단] 2026 강원 AI 창업아이디어 경진대회",
+      "org": "상지대학교 앵커사업단 · 상상력집단",
+      "url": "https://linkareer.com/activity/366908",
+      "posted_date": "2026-11-25",
+      "deadline": "2026-12-07",
+      "tags": [
+        "AI",
+        "창업",
+        "아이디어",
+        "대학생",
+        "강원"
+      ],
+      "summary": "강원 소재 대학 재학생 창업팀·동아리가 AI를 활용한 제품·서비스 아이디어를 사업계획서로 제안하는 대회로, 12/7(월) 23:59까지 신청하면 12팀을 뽑아 12/16(수) 원주에서 본선 발표를 진행한다. 총상금 300만 원(9팀 시상)."
+    },
+    {
+      "category": "contest",
+      "title": "AI·공공데이터·정보공개 대국민 혁신 아이디어 공모전",
+      "org": "국토안전관리원",
+      "url": "https://linkareer.com/activity/367085",
+      "posted_date": "2026-11-25",
+      "deadline": "2026-12-10",
+      "tags": [
+        "AI",
+        "공공데이터",
+        "AX",
+        "아이디어",
+        "공모전"
+      ],
+      "summary": "국토안전관리원 사업의 AI 접목·AX 방안, 고가치 공공데이터 개방·활용, 수요자 중심 정보공개 아이디어를 3개 부문으로 모집하며 국민 누구나 12/10(목)까지 국토안전 빅데이터 플랫폼에서 접수한다. 총 시상금 90만 원(부문별 최우수 20만 원·우수 10만 원)."
     }
   ]
 }
