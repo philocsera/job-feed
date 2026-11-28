@@ -1,68 +1,22 @@
 {
-  "date": "2026-11-27",
-  "generated_at": "2026-11-28T00:04:22+09:00",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-29T00:04:22+09:00",
   "items": [
     {
       "category": "job",
-      "title": "[인턴] 백엔드 개발자",
-      "org": "넥스트그라운드",
-      "url": "https://www.wanted.co.kr/wd/400628",
-      "posted_date": "2026-11-27",
-      "deadline": "2026-12-11",
+      "title": "소프트웨어 엔지니어(Backend)",
+      "org": "주식회사 사각",
+      "url": "https://www.rallit.com/positions/3727",
+      "posted_date": "2026-11-28",
+      "deadline": null,
       "tags": [
-        "신입",
-        "Java",
-        "AWS",
-        "Spring Framework",
-        "React.js"
+        "경력/신입",
+        "Django",
+        "FastAPI",
+        "PostgreSQL",
+        "MongoDB"
       ],
-      "summary": "0-1년 · 서울 강남구 테헤란로 — 월 250만 명이 사용하는 부동산 정보 플랫폼 '집품' 운영사의 백엔드 인턴. 2024년 하반기 흑자 달성."
-    },
-    {
-      "category": "contest",
-      "title": "Google Gemini Tasks 우수 활용사례 공모전",
-      "org": "#TeamGemini",
-      "url": "https://linkareer.com/activity/367535",
-      "posted_date": "2026-11-27",
-      "deadline": "2026-12-02",
-      "tags": [
-        "AI",
-        "Gemini",
-        "업무 자동화",
-        "누구나"
-      ],
-      "summary": "Gemini Tasks(예약 실행·반복 업무 자동화) 활용법을 '대화 공유' 링크로 구글폼 제출(#TeamGemini 카카오톡 채널 가입자 누구나). 우수자 5명에게 갤럭시 버즈 증정."
-    },
-    {
-      "category": "contest",
-      "title": "2026 비 마이 에이전트(Be My Agent) 공모전",
-      "org": "과학기술정보통신부·NIA 주최 / 카카오 주관",
-      "url": "https://linkareer.com/activity/367521",
-      "posted_date": "2026-11-27",
-      "deadline": "2026-12-11",
-      "tags": [
-        "AI 에이전트",
-        "MCP",
-        "개발 공모전",
-        "대학생 가능"
-      ],
-      "summary": "업무·생활 문제를 해결하는 AI 에이전트/MCP를 직접 만들어 빌더 플랫폼에 배포·제출(기획서+5분 시연영상+엔드포인트). 만 19세 이상 개인·팀(최대 10인), 총상금 4,000만 원(최대 20팀 각 200만 원)."
-    },
-    {
-      "category": "contest",
-      "title": "[프로그래머스] 백엔드 단기심화 데브코스 10기",
-      "org": "프로그래머스 · 한국프로세스혁신협회",
-      "url": "https://linkareer.com/activity/367441",
-      "posted_date": "2026-11-27",
-      "deadline": "2026-12-17",
-      "tags": [
-        "백엔드",
-        "Spring",
-        "MSA",
-        "Kubernetes",
-        "국비교육"
-      ],
-      "summary": "Java·Spring 경험자 대상 10주(12/21~2/24) KDT 심화 과정 — Spring AI·RAG, Kafka 기반 MSA, Kubernetes 무중단 배포와 커머스·추천 팀 프로젝트 2회. 평일 09~18시 온·오프 병행(서울 서초), 자기부담금 30만 원."
+      "summary": "경력/신입 · 마포 — 2022년 4월 창업해 탑티어 투자사 투자를 유치한 스타트업. 디지털 헬스케어 서비스와 금융·교육 분야 초개인화 AI 에이전트 솔루션을 제공한다."
     }
   ]
 }

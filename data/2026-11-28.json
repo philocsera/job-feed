@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-29T00:04:22+09:00",
+  "items": [
+    {
+      "category": "job",
+      "title": "소프트웨어 엔지니어(Backend)",
+      "org": "주식회사 사각",
+      "url": "https://www.rallit.com/positions/3727",
+      "posted_date": "2026-11-28",
+      "deadline": null,
+      "tags": [
+        "경력/신입",
+        "Django",
+        "FastAPI",
+        "PostgreSQL",
+        "MongoDB"
+      ],
+      "summary": "경력/신입 · 마포 — 2022년 4월 창업해 탑티어 투자사 투자를 유치한 스타트업. 디지털 헬스케어 서비스와 금융·교육 분야 초개인화 AI 에이전트 솔루션을 제공한다."
+    }
+  ]
+}
